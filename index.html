@@ -6,59 +6,127 @@
   <title>Dimny Texture Packs</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: white;
       margin: 0;
-      padding: 20px;
+      background: #121212;
+      font-family: 'Segoe UI', sans-serif;
+      color: #f1f1f1;
     }
-    h1, h2 {
-      color: #00ffcc;
+    header {
+      background: linear-gradient(to right, #00ffe1, #00b3ff);
+      padding: 40px 20px;
+      text-align: center;
+      color: black;
     }
-    a {
-      color: #ffcc00;
-      text-decoration: none;
+    header h1 {
+      font-size: 3em;
+      margin: 0;
     }
-    a:hover {
-      text-decoration: underline;
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
     }
     .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .texture-pack {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 20px;
       margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(0,255,255,0.1);
+    }
+    .texture-pack h2 {
+      color: #00ffe1;
+      margin-top: 0;
+    }
+    .texture-pack p {
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #00b3ff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #0099cc;
+    }
+    .video-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     iframe {
+      border: none;
       border-radius: 10px;
-      margin: 10px 0;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>🎮 Dimny’s Minecraft Texture Packs</h1>
-  <p>Welcome to the official site for my PvP and aesthetic Minecraft textures. Download packs, watch shorts, and subscribe!</p>
+  <header>
+    <h1>Dimny’s Minecraft Texture Packs</h1>
+    <p>Modern, clean, and performance-friendly packs — all in one place!</p>
+  </header>
 
-  <div class="section">
-    <h2>🧰 Texture Packs</h2>
-    <ul>
-      <li><a href="http://adfoc.us/872662110661581" target="_blank">Limited PvP</a></li>
-      <li><a href="http://adfoc.us/872662110647549" target="_blank">Switz</a></li>
-      <li><a href="http://adfoc.us/872662110603608" target="_blank">Smooth Wool</a></li>
-    </ul>
-  </div>
+  <section class="section">
+    <div class="texture-pack">
+      <h2>Smooth Wool</h2>
+      <p>Give your builds a clean, modern look with the Smooth Wool Texture Pack! This pack replaces the default wool textures with sleek, flat colors and subtle shading to remove the noisy patterns from vanilla Minecraft. It’s perfect for modern builds, pixel art, and minimalist designs. Whether you're building a colorful city, clean interiors, or vibrant structures, this pack makes wool blocks look way better and more polished. Compatible with both Java and Bedrock (via Geyser), and designed to blend seamlessly with other smooth-style packs.</p>
+      <a class="btn" href="http://adfoc.us/872662110603608" target="_blank">Download Smooth Wool</a>
+    </div>
 
-  <div class="section">
+    <div class="texture-pack">
+      <h2>Limited PvP</h2>
+      <p>Discover a fresh new look for your Minecraft world with this custom texture pack! Designed to enhance your gaming experience, it features smooth, vibrant textures that keep the classic Minecraft feel while adding a modern twist. Every block and item is carefully crafted to look clean and polished, making your builds stand out like never before. Whether you’re building epic castles or exploring vast landscapes, this pack brings clarity and style to every corner of your world. Easy to install and compatible with most versions, it’s perfect for players who want a simple yet beautiful upgrade.</p>
+      <a class="btn" href="http://adfoc.us/872662110661581" target="_blank">Download Limited PvP</a>
+    </div>
+
+    <div class="texture-pack">
+      <h2>Switz PvP</h2>
+      <p>✨ [SwitzPvp] - Minecraft 1.8 PvP/Vanilla Pack ✨<br><br>
+      Welcome to my brand-new Minecraft 1.8 texture pack, made especially for smooth performance and clean visuals! This pack is perfect for PvP or even casual survival, offering low-lag, FPS-friendly textures with a polished aesthetic. Swords are short and clean for better vision, ores are outlined for easier spotting, and blocks are simplified without ruining the original Minecraft vibe. I also tweaked particles, armor, and UI to look more modern and minimal.<br><br>
+      ✔ Works on 1.8 – 1.8.9<br>
+      ✔ Optimized for PvP<br>
+      ✔ Custom sky (optional)<br>
+      ✔ Short swords + smooth wool<br>
+      ✔ Low-res for high FPS</p>
+      <a class="btn" href="http://adfoc.us/872662110647549" target="_blank">Download Switz PvP</a>
+    </div>
+  </section>
+
+  <section class="section">
     <h2>📺 Watch My Shorts</h2>
-    <iframe width="300" height="500" src="https://www.youtube.com/embed/_7ur-4pmt6M" allowfullscreen></iframe>
-    <iframe width="300" height="500" src="https://www.youtube.com/embed/Gumg781skFs" allowfullscreen></iframe>
-    <iframe width="300" height="500" src="https://www.youtube.com/embed/q6hhCeikDzk" allowfullscreen></iframe>
-  </div>
+    <div class="video-grid">
+      <iframe width="300" height="500" src="https://www.youtube.com/embed/_7ur-4pmt6M" allowfullscreen></iframe>
+      <iframe width="300" height="500" src="https://www.youtube.com/embed/Gumg781skFs" allowfullscreen></iframe>
+      <iframe width="300" height="500" src="https://www.youtube.com/embed/q6hhCeikDzk" allowfullscreen></iframe>
+    </div>
+  </section>
 
-  <div class="section">
+  <section class="section">
     <h2>🔗 My YouTube Channel</h2>
-    <p>
-      <a href="https://www.youtube.com/channel/UCI3mXsGMtTZUVK-w0mcPJ6A" target="_blank">
-        Click here to visit & subscribe!
-      </a>
-    </p>
-  </div>
+    <p><a class="btn" href="https://www.youtube.com/channel/UCI3mXsGMtTZUVK-w0mcPJ6A" target="_blank">Subscribe to Dimny</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Dimny • Built with ❤️ using GitHub Pages
+  </footer>
 </body>
 </html>
-
